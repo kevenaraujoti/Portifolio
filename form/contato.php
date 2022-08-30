@@ -18,7 +18,7 @@
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "kevenaraujoti@hotmail.com";
+  $destino = "kevenaraujoo@hotmail.com";
   $assunto = "Contato pelo Site";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
@@ -29,5 +29,5 @@
   //Enviar
   mail($destino, $assunto, $arquivo, $headers);
   
-  echo "<meta http-equiv='refresh' content='1;URL=../index.html'>";
+  echo "<meta http-equiv='refresh' content='1;URL=index.html'>";
 ?>
