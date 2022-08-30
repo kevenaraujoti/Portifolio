@@ -214,22 +214,23 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="column right">
                     <div class="text">Deixe Uma Mensagem :)</div>
-                    <form action="#">
+                    <form action="../Portifólio/form/contato.php" method="post" role="form">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Nome" required>
+                                <input type="text" name="name" placeholder="Nome" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Profissão" required>
+                            <input type="text" name="subject" placeholder="Profissão" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Mensagem" required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">enviar Mensagem</button>
